@@ -22,7 +22,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     chunkFilename: '[name].[hash].js',
-    publicPath: '/',
+    publicPath: '/dist',
     path: path.resolve(__dirname, '../dist'),
   },
   resolve: {

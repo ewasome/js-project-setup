@@ -24,7 +24,7 @@ module.exports = {
     filename: '[name].js',
     pathinfo: true,
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/',
+    publicPath: '/dist',
     libraryTarget: 'umd',
     globalObject: 'this',
   },
